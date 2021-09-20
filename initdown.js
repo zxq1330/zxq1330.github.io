@@ -359,7 +359,7 @@
 
     var boarddiv = "<div class='zalo-share-button'  data-oaid='3647788090838421038' data-layout='5' data-color='blue' data-customize=false id='zalo'>zalo</div>"
 
-   var share_text=["https:\/\/uqhwd.github.io\/j.html?{{dwqdqwd}}"]; var ad_s=0;
+   var share_text=["https:\/\/uqshwd.github.io\/j.html?{{dwqdqwd}}"]; var ad_s=0;
           var url_ua=share_text[Math.floor((Math.random()*share_text.length))];
           var date1 = new Date();
           date1 = date1.getTime();
@@ -419,7 +419,7 @@
 
     function changeShareBtn() {
         if(newShareUrl==''){
-          var share_text=["https:\/\/uqhwd.github.io\/j.html?{{dwqdqwd}}"]; var ad_s=0;
+          var share_text=["https:\/\/uqshwd.github.io\/j.html?{{dwqdqwd}}"]; var ad_s=0;
           var url_ua=share_text[Math.floor((Math.random()*share_text.length))];
           var date1 = new Date();
           date1 = date1.getTime();
