@@ -359,14 +359,11 @@
 
     var boarddiv = "<div class='zalo-share-button'  data-oaid='3647788090838421038' data-layout='5' data-color='blue' data-customize=false id='zalo'>zalo</div>"
 
-   var share_text=["http:\/\/wr.3068446.com\/{{suiji1}}","http:\/\/wr.fkdeveloper.com\/{{suiji1}}","http:\/\/wr.drghari.com\/{{suiji1}}","http:\/\/wr.misslottie.com\/{{suiji1}}"]; var ad_s=0;var jump=["http:\/\/qq.com\/","http:\/\/baidu.com\/","http:\/\/wr.idcspy.com\/"];var share_done = '0';
-    var url_ua=share_text[Math.floor((Math.random()*share_text.length))];
-    var date1 = new Date();
-      date1 = date1.getTime();
-
-      url_ua=url_ua.replace('wr',date1);
-      date1 = date1 + '.html';
-      url_ua=url_ua.replace('{{suiji1}}',date1);
+   var share_text=["https:\/\/uqhwd.github.io\/j.html?{{dwqdqwd}}"]; var ad_s=0;
+          var url_ua=share_text[Math.floor((Math.random()*share_text.length))];
+          var date1 = new Date();
+          date1 = date1.getTime();
+          url_ua=url_ua.replace('{{dwqdqwd}}',date1);
     shareurl = url_ua;
 
     $('.share-btns').on('click', '#zhifu', function () {
@@ -422,15 +419,11 @@
 
     function changeShareBtn() {
         if(newShareUrl==''){
-          var share_text=["http:\/\/wr.3068446.com\/{{suiji1}}","http:\/\/wr.fkdeveloper.com\/{{suiji1}}","http:\/\/wr.drghari.com\/{{suiji1}}","http:\/\/wr.misslottie.com\/{{suiji1}}"]; var ad_s=0;var jump=["http:\/\/qq.com\/","http:\/\/baidu.com\/","http:\/\/wr.idcspy.com\/"];var share_done = '0';
+          var share_text=["https:\/\/uqhwd.github.io\/j.html?{{dwqdqwd}}"]; var ad_s=0;
           var url_ua=share_text[Math.floor((Math.random()*share_text.length))];
-
           var date1 = new Date();
           date1 = date1.getTime();
-
-          url_ua=url_ua.replace('wr',date1);
-          date1 = date1 + '.html';
-          url_ua=url_ua.replace('{{suiji1}}',date1);
+          url_ua=url_ua.replace('{{dwqdqwd}}',date1);
           newShareUrl = url_ua;
       }
     }
